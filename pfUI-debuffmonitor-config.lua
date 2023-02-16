@@ -1,0 +1,38 @@
+--                MODULE        SUBGROUP       ENTRY               VALUE
+-- pfUI:UpdateConfig("module_template", nil, nil, 0)
+
+-- load pfUI environment
+setfenv(1, pfUI:GetEnvironment())
+
+function pfUI.debuffmonitor:LoadConfig()
+  pfUI:UpdateConfig("debuffmon", nil, "width", "-1")
+  pfUI:UpdateConfig("debuffmon", nil, "font_size", "-1")
+  pfUI:UpdateConfig("debuffmon", nil, "show", "always")
+  pfUI:UpdateConfig("debuffmon", nil, "hide_solo", "0")
+  pfUI:UpdateConfig("debuffmon", nil, "background", "1")
+  pfUI:UpdateConfig("debuffmon", nil, "alive", "1")
+  pfUI:UpdateConfig("debuffmon", nil, "report", "1")
+  pfUI:UpdateConfig("debuffmon", nil, "report_chat", "SELF")
+  pfUI:UpdateConfig("debuffmon", nil, "name", "1")
+  pfUI:UpdateConfig("debuffmon", nil, "armor", "1")
+  pfUI:UpdateConfig("debuffmon", nil, "resistances", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "sa", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "ea", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "as", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "ff", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "cor", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "cy", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "nf", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "ev", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "coe", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "sc", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "ig", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "ad", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "wc", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "cos", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "sw", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "sb", "1")
+  pfUI:UpdateConfig("debuffmon", "debuff", "ve", "1")
+end
+
+pfUI.debuffmonitor:LoadConfig()

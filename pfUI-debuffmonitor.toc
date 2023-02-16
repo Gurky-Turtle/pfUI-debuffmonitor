@@ -1,0 +1,12 @@
+## Interface: 11200
+## Title: |cff33ffccpf|cffffffffUI|cffaaaaaa [Debuff Monitor]
+## Author: dein0s
+## Notes: External module for |cff33ffccpf|cffffffffUI
+## Version: 0.6
+## Dependencies: pfUI
+## X-LocalName: Debuff Monitor
+
+# main
+pfUI-debuffmonitor.lua
+pfUI-debuffmonitor-config.lua
+pfUI-debuffmonitor-gui.lua
